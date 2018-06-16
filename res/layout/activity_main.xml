@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="#00ff95"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="Enter EMAIL ID"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText4"
+        android:layout_below="@+id/editText4"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/editText4"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Enter mobile No."
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="46dp"
+        android:ems="10"
+        android:hint="Enter Name"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Sign up" />
+
+</RelativeLayout>
